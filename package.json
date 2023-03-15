@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "generarPokedex": "ng g c pokedex",
+    "generarPokemon": "ng g c pokemon",
+    "generarSPokeapi": "ng g s pokeapi"
   },
   "private": true,
   "dependencies": {
